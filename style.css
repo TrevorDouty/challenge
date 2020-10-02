@@ -3,7 +3,7 @@
 }
 
 .golf-bg{
-background-image: url(golf-bg.1.jpg);
+background-image: url(hi-res.jpg);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -21,4 +21,10 @@ background-repeat: no-repeat;
 .video{
   max-width: 100vh;
   max-height: 100vh;
+}
+
+@media screen and (min-width: 800px){
+  .pos-abs{
+    position: absolute;
+  }
 }
