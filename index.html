@@ -16,31 +16,34 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="bangers">
   <header>
-    <nav class="navbar navbar-light bg-success pl-3 fa4 bangers">
+    <nav class="navbar sticky-top navbar-light bg-warning pl-3 fa4 bangers">
       <a class="navbar-brand" href="#">
-        <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top"
-          alt="">
+        <img src="bad-golf.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
         Bad Golfer
       </a>
     </nav>
   </header>
 
   <main class="container-fluid">
-    <div class="row bg-info golf-bg text-warning py-3">
-      <div class="col-12 col-md-3">
+    <div class="row golf-bg text-success py-3">
+      <div class="col-12 col-md-4">
         <form>
           <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
               placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">Your email really isn't that safe right now I have a week
+            <small id="emailHelp" class="form-text text-primary">Your email really isn't that safe right now. I have a
+              week
               of design knowledge, but don't worry too much this form doesn't function... yet..</small>
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <small id="emailHelp" class="form-text text-primary">Password is the suggested password for all of your
+              passwords. If you use passowrd for your passwords it will be much easier to remember your password for
+              future password use.</small>
           </div>
           <div class="form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -57,14 +60,14 @@
       </div>
     </div>
 
-    <div class="row bg-success text-light justify-content-center">
+    <div class="row bg-warning text-light justify-content-center">
       <div class="col-12 col-md-4 order-2"><b>
           <h1>How do you know how bad at goling you really are?</h1>
         </b>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt deleniti dignissimos dolorem ratione
           ducimus libero accusantium velit quod. Molestiae, error.</p>
       </div>
-      <div class="col-12 col-md-6 order-md-2">
+      <div class="col-12 col-md-6 order-md-2 opa">
         <div class="card text-primary" style="width: 18rem;">
           <ul class="list-group list-group-flush">
             <li class="list-group-item"><i class="fa fa-binoculars" aria-hidden="true"></i>Cras justo odio
@@ -78,10 +81,80 @@
       </div>
     </div>
 
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-3">
+        <!-- NOTE Enter Video here -->
+        <img src="//placehold.it/220x300" class="pl-3" alt="">
+      </div>
+      <div class="col-12 col-md-7 m-auto text-success shadow-lg">
+        <b>
+          <h1><i class="fa fa-arrow-left" aria-hidden="true"></i>WATCH AND LEARN</h1>
+        </b>
+        Charles Barkley is the king of all bad golfers. If you can manage to not do what he does you can feel good about
+        how you hit that little white ball.
+        <div class="pt-2">
+          <button class="d-flex btn btn-success justify-self-end"> WATCH NOW!</button>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="row justify-content-around bg-secondary text-center">
+      <div class="col-12 col-md-3 mt-md-4 order-md-first mb-2">
+        <div class="card shadow" style="height:40vh; width: 18rem;">
+          <div class="card-body bg-success">
+            <h5 class="card-title"><b> HOW TO SCORE LOWER!</b></h5>
+            <p class="card-text">"Golf is the hardest game in the world to play, and the easiest to cheat at."
+            </p>
+            <p>-Dave Hill</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 order-first mb-2">
+        <div class="card bg-warning shadow-lg" style=" height: 50vh; width: 18rem;">
+          <div class="card-body">
+            <div class="d-flex justify-content-around pb-3">
+              <i class="fa fa-diamond" aria-hidden="true"></i>
+              <i class="fa fa-diamond" aria-hidden="true"></i>
+              <i class="fa fa-diamond" aria-hidden="true"></i>
+            </div>
+            <h5 class="card-title">THINGS TO REMEMBER</h5>
+            <p class="card-text">“The only sure rule in golf is he who has the fastest cart never has to play the bad
+              lie.”</p>
+            <p>Mickey Mantle</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mt-md-4 mb-2">
+        <div class="card bg-success shadow" style="height:40vh; width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">YOU ARE NOT ALONE</h5>
+            <p class="card-text">“It took me seventeen years to get three thousand hits in baseball. It took one
+              afternoon on the golf course.” </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </main>
-
-
-
+  <footer>
+    <div class="row">
+      <div class="col-12 bg-success mr-0">
+        <nav class="navbar navbar-light bg-light justify-content-between">
+          <a class="navbar-brand">Navbar</a>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </nav>
+      </div>
+    </div>
+  </footer>
 
 
 
