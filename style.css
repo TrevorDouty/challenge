@@ -1,0 +1,8 @@
+.bangers{
+  font-family: 'Bangers', cursive;
+}
+
+.golf-bg{
+background-image: url(golf-bg.jpg);
+background-size: cover;
+}
