@@ -3,11 +3,22 @@
 }
 
 .golf-bg{
-background-image: url(golf-bg.jpg);
+background-image: url(golf-bg.1.jpg);
 background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
 
 .opa{
   opacity: .5;
 
+}
+
+.border-1{
+  border-left: #325d88 solid 5px ;
+}
+
+.video{
+  max-width: 100vh;
+  max-height: 100vh;
 }
